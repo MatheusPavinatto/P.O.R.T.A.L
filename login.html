@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de login seguro para o portal P.O.R.T.A.L.">
+    <title>P.O.R.T.A.L - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <!-- Áudio de Fundo -->
+    <audio id="audio" autoplay loop>
+        <source src="codigo.wav" type="audio/wav">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <!-- Pop-up de Login -->
+    <div id="login-popup" class="popup">
+        <div class="popup-content">
+            <h2>Área Restrita</h2>
+            <form id="login-form" onsubmit="verificarCredenciais(event)">
+                <!-- Nome de Usuário -->
+                <div class="form-group">
+                    <label for="username">Credencial</label>
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        placeholder="Digite sua credencial" 
+                        required 
+                        aria-label="Campo para inserir o nome de usuário"
+                        autocomplete="off">
+                </div>
+                <!-- Senha -->
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Codigo de Acesso" 
+                        required 
+                        aria-label="Campo para inserir a senha"
+                        autocomplete="off">
+                </div>
+                <!-- Botão de Login -->
+                <button type="submit">Entrar</button>
+                <p id="login-error" class="error-message" hidden></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Fundo Animado -->
+    <div id="fundo-gif">
+        <img src="fundo.gif" alt="Fundo animado representando o sistema P.O.R.T.A.L.">
+    </div>
+</body>
+</html>
