@@ -1,0 +1,30 @@
+/* Estilos para a página de ameaças */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.threats-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFA500;
+}
+
+threats-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+threats-container li {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+}

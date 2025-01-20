@@ -1,0 +1,84 @@
+/* Estilos para a dashboard */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+.dashboard-container {
+    padding-top: 70px;  /* Para dar espaço ao menu fixo */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFA500;
+}
+
+.forum-section, .sobre-section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.forum-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.forum-section ul li {
+    background-color: #444;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.forum-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forum-section ul li a:hover {
+    color: #FFA500;
+}
+
+.sobre-section p {
+    font-size: 18px;
+    color: #ccc;
+}

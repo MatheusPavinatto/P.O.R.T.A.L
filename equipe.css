@@ -1,0 +1,33 @@
+/* Estilos para a página de equipe */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.team-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFA500;
+}
+
+.team-member {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.team-member h2 {
+    color: #FF6347;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #ccc;
+}

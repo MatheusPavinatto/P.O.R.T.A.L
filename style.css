@@ -1,0 +1,36 @@
+/* Estilo para a barra de navegação */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Ajuste para o conteúdo abaixo da barra de navegação */
+body {
+    margin-top: 60px; /* Espaço para não sobrepor o conteúdo */
+}
